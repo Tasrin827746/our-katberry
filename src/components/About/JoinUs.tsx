@@ -1,4 +1,3 @@
-// components/About/JoinUsCTA.tsx
 
 import { FC } from "react";
 import Link from "next/link";
