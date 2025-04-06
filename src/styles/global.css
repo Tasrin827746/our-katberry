@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Base Colors */
+  --background: #ffffff;
+  --foreground: #171717;
+
+
+  /* Logo-Matching Colors */
+  --primary: #c7eef7; 
+  --secondary: #c2c2fa; 
+  --purple: #8f30a1; 
+  --lightPurple: #c4a0cb;
+  --violet: #c79cef;
+  --darkViolet: #8414ed;
+  --darkestViolet: #6b12bd;
+  --lightMaroon: #f4d5d8;
+  --maroon: #841d28;
+  --highlight: #fe4773; 
+  --soft: #E6E6FA; 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Poppins;
+  overflow-x: hidden;
+}
