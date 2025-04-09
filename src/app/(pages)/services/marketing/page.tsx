@@ -90,7 +90,7 @@ const marketingPage = () => {
   title="Transform Your Brand with Creative Design"
   description="We specialize in creating unique and visually impactful branding solutions that elevate your business identity."
   buttonText="Start Your Branding Journey"
-  buttonLink="#services"
+  buttonLink="#pricing"
   bgColor="bg-gradient-to-l from-blue-100 to-violet-300"
 />
 

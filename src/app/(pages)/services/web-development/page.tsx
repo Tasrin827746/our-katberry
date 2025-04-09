@@ -90,8 +90,8 @@ const WebDevPage = () => {
       <Hero
         title="Build Stunning Websites with Best Technology"
         description="We craft high-performance, scalable, and visually stunning web solutions using the latest technologies."
-        buttonText="Get a Free Consultation"
-        buttonLink="#contact"
+        buttonText="Get Consultation"
+        buttonLink="#pricing"
         bgColor="bg-gradient-to-l from-gray-200 to-blue-200"
       />
 

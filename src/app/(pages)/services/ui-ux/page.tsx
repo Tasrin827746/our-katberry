@@ -86,8 +86,8 @@ const UiUxpage = () => {
        <Hero
         title="Creative & Engaging Web Design Solutions"
         description="We craft visually stunning and user-friendly web designs that align with your brand."
-        buttonText="Get a Free Consultation"
-        buttonLink="#contact"
+        buttonText="Get Consultation"
+        buttonLink="#pricing"
         bgColor="bg-gradient-to-l from-gray-200 to-pink-200"
       />
        {/* Services Section */}

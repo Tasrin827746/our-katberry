@@ -24,7 +24,7 @@ const Services: FC<ServicesProps> = ({ title, description, services, bgColor = "
         <p className="mt-3 text-lg text-gray-700">{description}</p>
 
         {/* Services Grid */}
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}

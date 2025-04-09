@@ -86,8 +86,8 @@ const LogoDesignPage = () => {
      <Hero
         title="Crafting Your Brand Identity"
         description="We design high-performance, scalable, and visually stunning logos and business cards to elevate your brand."
-        buttonText="Get a Free Consultation"
-        buttonLink="#contact"
+        buttonText="Get Consultation"
+        buttonLink="#pricing"
         bgColor="bg-gradient-to-r from-orange-100 to-indigo-200"
       />
       {/* Services Section */}

@@ -19,18 +19,18 @@ const Navbar = () => {
       path: "/services",
       dropdown: [
         { name: "Web Development", path: "/services/web-development", icon: "/web-development.png" },
-        // { name: "Web Design", path: "/services/web-design", icon: "/web-design.png" },
         { name: "Logo & Card Design", path: "/services/logo-design", icon: "/logo-design.png" },
         { name: "Branding & Marketing", path: "/services/marketing", icon: "/logo-design.png" },
         { name: "UI/UX Design", path: "/services/ui-ux", icon: "/ui-ux.png" },
         { name: "Motion & Animation", path: "/services/motion", icon: "/motion.png" },
       ],
     },
+    { name: "Our Projects", path: "/projects" },
     { name: "Client Reviews", path: "/reviews" },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-[#fef8dd] to-[#f1e5ad] text-black shadow-md z-50 h-[5rem]">
+    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-[#faefbc] via-[#fef8dd] to-[#faefbc] text-black shadow-md z-50 h-[5rem]">
       <div className="container mx-auto flex justify-between items-center p-3">
          {/* Logo */}
     <Link href="/" className="flex">
@@ -109,7 +109,7 @@ const Navbar = () => {
                 {dropdown ? (
                   <>
                     <button
-                      className="flex justify-center items-center w-full px-4 py-2 hover:text-rust transition"
+                      className="flex justify-center items-center w-full px-4 py-2 hover:text-darkViolet transition"
                       onClick={() =>
                         setOpenDropdown(openDropdown === name ? null : name)
                       }
@@ -137,8 +137,8 @@ const Navbar = () => {
                 ) : (
                   <Link
                     href={path}
-                    className={`block px-4 py-2 hover:text-rust transition ${
-                      pathname === path ? "text-rust font-bold" : ""
+                    className={`block px-4 py-2 hover:text-darkViolet transition ${
+                      pathname === path ? "text-darkViolet font-bold" : ""
                     }`}
                     onClick={() => setIsOpen(false)}
                   >

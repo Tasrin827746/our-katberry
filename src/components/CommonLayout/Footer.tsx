@@ -2,17 +2,16 @@ import Link from "next/link";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const services = [
-  { name: "Web Development", path: "/web-development" },
-  { name: "Web Design", path: "/web-design" },
-  { name: "Logo Design", path: "/logo-design" },
-  { name: "Business Card Design", path: "/business-card" },
-  { name: "UI/UX Design", path: "/ui-ux" },
-  { name: "Motion Graphics & Animation", path: "/animation" },
+  { name: "Web Development", path: "/services/web-development" },
+  { name: "Logo & Card Design", path: "/services/logo-design" },
+  { name: "Branding & Marketing", path: "/services/marketing" },
+  { name: "UI/UX Design", path: "/services/ui-ux" },
+  { name: "Motion & Animation", path: "/services/motion" },
 ];
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-primary to-secondary text-black py-10">
+    <footer className="bg-gradient-to-r from-[#faefbc] via-[#fef8dd] to-[#faefbc] text-black py-10">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6 text-center md:text-left">
         
         {/* Brand Info */}

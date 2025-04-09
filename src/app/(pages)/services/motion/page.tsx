@@ -87,8 +87,8 @@ const page = () => {
       <Hero
         title="Bring Your Ideas to Life with Motion & Animation"
         description="We create high-quality motion graphics, UI animations, and explainer videos to make your brand stand out."
-        buttonText="Get a Free Consultation"
-        buttonLink="#contact"
+        buttonText="Get Consultation"
+        buttonLink="#pricing"
         bgColor="bg-gradient-to-r from-green-100 to-red-200"
       />
 

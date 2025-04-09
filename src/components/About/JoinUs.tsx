@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const JoinUsCTA: FC = () => {
   return (
-    <section className="bg-gradient-to-r from-violet-700 to-blue-400 text-white py-20 px-6 md:px-12">
+    <section className="bg-violet-400 text-black py-20 px-6 md:px-12">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Ready to Build the Future With Us?</h2>
         <p className="text-lg mb-8 max-w-2xl mx-auto">
@@ -12,14 +12,8 @@ const JoinUsCTA: FC = () => {
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link
-            href="/careers"
-            className="bg-white text-blue-600 font-semibold px-6 py-3 rounded-xl hover:bg-blue-100 transition"
-          >
-            View Careers
-          </Link>
-          <Link
             href="/contact"
-            className="border border-white text-white px-6 py-3 rounded-xl hover:bg-white hover:text-blue-600 transition"
+            className="border font-semibold border-black text-black px-6 py-3 rounded-xl hover:bg-gray-100 hover:text-violet-700 transition"
           >
             Contact Us
           </Link>

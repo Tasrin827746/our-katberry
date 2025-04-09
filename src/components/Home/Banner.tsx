@@ -2,8 +2,11 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const Banner = () => {
+  const router = useRouter();
+
   return (
     <section 
       className="bg-gradient-to-r from-lightMaroon to-lightPurple flex justify-center items-center py-20 px-8"
@@ -23,7 +26,7 @@ const Banner = () => {
           <p className="text-gray-700 mt-4 text-lg">
             We blend creativity with technology to build brands that shine online.
           </p>
-          <button className="mt-6 bg-gradient-to-l from-purple to-highlight text-[#fef8dd] font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gradient-to-r hover:from-red-800 hover:to-red-800 transition">
+          <button onClick={()=> router.push ('/contact')} className="mt-6 bg-gradient-to-l from-purple to-highlight text-[#fef8dd] font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gradient-to-r hover:from-red-800 hover:to-red-800 transition">
             Let&apos;s Discuss Your Project
           </button>
         </motion.div>

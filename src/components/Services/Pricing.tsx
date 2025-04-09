@@ -20,7 +20,7 @@ interface PricingPlan {
     buttonText = "Get Started",
   }) => {
     return (
-      <section className={`py-32 ${bgColor} text-gray-900`}>
+      <section id="pricing" className={`py-32 ${bgColor} text-gray-900`}>
         <div className="max-w-6xl mx-auto px-6 text-center">
           {/* Heading */}
           <h2 className="text-3xl md:text-4xl font-bold">{title}</h2>
@@ -39,14 +39,14 @@ interface PricingPlan {
           </li>
         ))}
       </ul>
-      <button className="mt-6 px-3 py-2 w-40 bg-blue-500 text-white text-lg font-semibold rounded-lg hover:bg-blue-600 transition">
+      <button className="mt-6 px-3 py-2 w-40 bg-purple text-white text-lg font-semibold rounded-lg hover:bg-blue-600 transition">
         {buttonText}
       </button>
     </div>
   ))}
 </div>
 
-<p className="mt-6 text-red-600">Note: It can be vary according to your requirements</p>
+<p className="mt-6 text-red-500">Note: It can vary according to your requirements</p>
         </div>
       </section>
     );

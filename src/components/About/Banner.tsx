@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const containerVariants = {
   hidden: {},
@@ -18,6 +19,7 @@ const itemVariants = {
 };
 
 const Banner = () => {
+  const router = useRouter();
   return (
     <section className="bg-gradient-to-l from-[#aae5e9] via-orange-100 to-[#d4a9f0] flex justify-center items-center py-20 px-8">
       <div className="max-w-6xl flex flex-col md:flex-row mt-16 items-center gap-16">
@@ -34,8 +36,8 @@ const Banner = () => {
           <p className="text-gray-700 mt-4 text-lg">
             Crafting seamless digital experiences with passion, precision, and innovation.
           </p>
-          <button className="mt-6 bg-gradient-to-l from-purple to-highlight text-[#fef8dd] font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gradient-to-r hover:from-red-800 hover:to-red-800 transition">
-            Learn More About Us
+          <button onClick={()=> router.push('/projects')} className="mt-6 bg-gradient-to-l from-purple to-highlight text-[#fef8dd] font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gradient-to-r hover:from-red-800 hover:to-red-800 transition">
+            See Our Projects
           </button>
         </motion.div>
 
