@@ -33,7 +33,7 @@ const Banner = () => {
           <h1 className="text-5xl font-extrabold text-black leading-tight">
             Who We Are & <br /> <span className="text-orange-600">What We Build</span>
           </h1>
-          <p className="text-gray-700 mt-4 text-lg">
+          <p className="text-gray-800 mt-4 text-lg">
             Crafting seamless digital experiences with passion, precision, and innovation.
           </p>
           <button onClick={()=> router.push('/projects')} className="mt-6 bg-gradient-to-l from-purple to-highlight text-[#fef8dd] font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gradient-to-r hover:from-red-800 hover:to-red-800 transition">

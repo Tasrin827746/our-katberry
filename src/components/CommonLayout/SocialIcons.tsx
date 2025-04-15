@@ -7,10 +7,10 @@ const SocialIcons = () => {
           <Link href="https://twitter.com" target="_blank" className="hover:text-darkestViolet text-lg transition">
               <FaLinkedin />
             </Link>
-       <Link href="https://facebook.com" target="_blank" className="hover:text-darkestViolet text-lg transition">
+       <Link href="https://www.facebook.com/katberrystudiobd/" target="_blank" className="hover:text-darkestViolet text-lg transition">
               <FaFacebook />
             </Link>
-            <Link href="https://youtube.com" target="_blank" className="hover:text-darkestViolet text-lg transition">
+            <Link href="https://www.youtube.com/@katberrystudio" target="_blank" className="hover:text-darkestViolet text-lg transition">
               <FaYoutube />
             </Link>
             <Link href="https://instagram.com" target="_blank" className="hover:text-darkestViolet text-lg transition">

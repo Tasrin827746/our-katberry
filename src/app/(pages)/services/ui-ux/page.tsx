@@ -122,7 +122,7 @@ const UiUxpage = () => {
         description="Choose a plan that suits your design needs."
         plans={uiUxPlans}
         bgColor="bg-slate-100"
-        buttonText="Start Your Project"
+        // buttonText="Start Your Project"
       />
     </div>
   )

@@ -9,7 +9,7 @@ interface PricingPlan {
     description: string;
     plans: PricingPlan[];
     bgColor?: string;
-    buttonText?: string;
+    // buttonText?: string;
   }
   
   const Pricing: React.FC<PricingProps> = ({
@@ -17,7 +17,7 @@ interface PricingPlan {
     description,
     plans,
     bgColor = "bg-gray-100",
-    buttonText = "Get Started",
+    // buttonText = "Get Started",
   }) => {
     return (
       <section id="pricing" className={`py-32 ${bgColor} text-gray-900`}>
@@ -39,9 +39,9 @@ interface PricingPlan {
           </li>
         ))}
       </ul>
-      <button className="mt-6 px-3 py-2 w-40 bg-purple text-white text-lg font-semibold rounded-lg hover:bg-blue-600 transition">
+      {/* <button className="mt-6 px-3 py-2 w-40 bg-purple text-white text-lg font-semibold rounded-lg hover:bg-blue-600 transition">
         {buttonText}
-      </button>
+      </button> */}
     </div>
   ))}
 </div>

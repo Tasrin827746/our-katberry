@@ -28,6 +28,8 @@ export default function WebDevProjects() {
       sectionTitle1="Some works of our"
       sectionTitle2="Web Development"
       sectionTitle3="sector"
+      textColor="text-amber-600"
+      bgColor="bg-amber-600"
       projects={webProjects}
     />
   );

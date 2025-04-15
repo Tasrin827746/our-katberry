@@ -122,7 +122,7 @@ const LogoDesignPage = () => {
         description="Choose a plan that suits your logo and branding needs."
         plans={logoCardDesignPlans}
         bgColor="bg-gray-200"
-        buttonText="Get Started"
+        // buttonText="Get Started"
       />
     </>
   )

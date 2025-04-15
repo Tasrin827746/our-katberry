@@ -30,8 +30,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-[#faefbc] via-[#fef8dd] to-[#faefbc] text-black shadow-md z-50 h-[5rem]">
-      <div className="container mx-auto flex justify-between items-center p-3">
+    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-[#faefbc] via-[#ddf9fe] to-[#faefbc] text-black shadow-md z-50 h-[4rem]">
+      <div className="container mx-auto flex justify-between items-center p-2">
          {/* Logo */}
     <Link href="/" className="flex">
       <img src="/Katberry.png" alt="Logo" className="h-14 w-20" />

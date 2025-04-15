@@ -11,7 +11,7 @@ const services = [
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#faefbc] via-[#fef8dd] to-[#faefbc] text-black py-10">
+    <footer className="bg-gradient-to-r from-[#faefbc] via-[#ddf9fe] to-[#faefbc] text-black py-10">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6 text-center md:text-left">
         
         {/* Brand Info */}
@@ -41,7 +41,7 @@ const Footer = () => {
         <div className="mb-6 md:mb-0">
           <h3 className="text-lg font-semibold mb-2">Follow us on:</h3>
           <div className="flex space-x-4">
-            <Link href="https://facebook.com" target="_blank" className="hover:text-darkestViolet text-lg transition">
+            <Link href="https://www.facebook.com/katberrystudiobd/" target="_blank" className="hover:text-darkestViolet text-lg transition">
               <FaFacebook />
             </Link>
             <Link href="https://instagram.com" target="_blank" className="hover:text-darkestViolet text-lg transition">
@@ -50,7 +50,7 @@ const Footer = () => {
             <Link href="https://twitter.com" target="_blank" className="hover:text-darkestViolet text-lg transition">
               <FaLinkedin />
             </Link>
-            <Link href="https://youtube.com" target="_blank" className="hover:text-darkestViolet text-lg transition">
+            <Link href="https://www.youtube.com/@katberrystudio" target="_blank" className="hover:text-darkestViolet text-lg transition">
               <FaYoutube />
             </Link>
           </div>

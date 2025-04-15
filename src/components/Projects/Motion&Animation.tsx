@@ -1,25 +1,30 @@
-import ProjectSection, { Project } from '@/components/Projects/Projects';
+import ProjectSection, { Projects3 } from '@/components/Projects/Projects3';
 
-const motionProjects: Project[] = [
+const motionProjects: Projects3[] = [
   {
-    title: 'Art & Craft Project',
-    description: 'Arts and crafts encompass a wide range of creative activities',
-    image: '/images/art-craft.jpg',
-    demoLink: 'https://your-demo-link.com/art-craft',
+    id: 1,
+    showVideo: '/motion/bekaron.mp4',
   },
   {
-    title: 'Book Shop',
-    description: 'Give a short description of your project here..',
-    image: '/images/book-shop.jpg',
-    demoLink: 'https://your-demo-link.com/book-shop',
+    id: 2,
+    showVideo: '/motion/Celebrate English final.mp4',
   },
   {
-    title: 'Kitchen',
-    description: 'Food Web',
-    image: '/images/kitchen.jpg',
-    demoLink: 'https://your-demo-link.com/kitchen',
+    id: 3,
+    showVideo: '/motion/Eid 2025.mp4',
   },
-
+  {
+    id: 4,
+    showVideo: '/motion/GYM PROJECT 1.mp4',
+  },
+  {
+    id: 5,
+    showVideo: '/motion/Main File.mp4',
+  },
+  {
+    id: 6,
+    showVideo: '/motion/Bookkeeping project final.mp4',
+  },
 ];
 
 export default function MotionProjects() {
@@ -28,6 +33,8 @@ export default function MotionProjects() {
       sectionTitle1="Some works of our"
       sectionTitle2="Motion & Animation"
       sectionTitle3="sector"
+      textColor="text-violet-600"
+      bgColor="bg-violet-700"
       projects={motionProjects}
     />
   );

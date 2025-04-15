@@ -10,7 +10,14 @@ interface HeroProps {
   bgColor: string; 
 }
 
-const Hero: React.FC<HeroProps> = ({ title, description, buttonText, buttonLink, bgColor }) => {
+const Hero: React.FC<HeroProps> = ({ 
+  title, 
+  description, 
+  buttonText, 
+  buttonLink, 
+  bgColor 
+}) => {
+  
   return (
     <section className={`relative flex items-center justify-center h-screen text-black ${bgColor}`}>
       <div className="relative z-10 text-center max-w-3xl px-6">

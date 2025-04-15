@@ -124,7 +124,7 @@ const page = () => {
         description="Choose a package that suits your animation needs."
         plans={motionAnimationPlans}
         bgColor="bg-neutral-200"
-        buttonText="Start Your Project"
+        // buttonText="Start Your Project"
       />
     </div>
   )

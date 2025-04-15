@@ -127,7 +127,7 @@ const WebDevPage = () => {
       description="Choose a plan that suits your business needs."
       plans={webDevPlans}
       bgColor="bg-gradient-to-b from-slate-300 to-gray-100"
-      buttonText="Start Now"
+      // buttonText="Start Now"
     />
     </div>
   );
