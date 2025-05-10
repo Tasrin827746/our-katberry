@@ -33,19 +33,16 @@ const webDevTechnologies = [
   const webDevTestimonials = [
     {
       name: "John Doe",
-      position: "CEO, TechCorp",
       review: "The team did an amazing job! Our website is fast, responsive, and exactly what we envisioned.",
       image: "/john.jpg",
     },
     {
-      name: "Sarah Johnson",
-      position: "Founder, StartupX",
+      name: "Sarah Johnson",  
       review: "Professional and efficient. The project was delivered on time and exceeded expectations.",
       image: "/sarah.jpg",
     },
     {
       name: "Michael Lee",
-      position: "Manager, EcomStore",
       review: "Great experience! The e-commerce site they built helped increase our sales significantly.",
       image: "/michel.jpg",
     },

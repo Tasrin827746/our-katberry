@@ -30,19 +30,16 @@ const motionAnimationTechnologies = [
 const motionAnimationTestimonials = [
     {
       name: "Jake Williams",
-      position: "Marketing Manager, Brandify",
       review: "The animated video perfectly captured our brand’s story! It significantly boosted our engagement.",
       image: "/michel.jpg",
     },
     {
       name: "Emma Thompson",
-      position: "Creative Director, MotionX",
       review: "Top-notch animation quality! Their team brought our ideas to life with smooth transitions and effects.",
       image: "/sarah.jpg",
     },
     {
       name: "Liam Anderson",
-      position: "Founder, VisionTech",
       review: "The UI micro-interactions they designed enhanced our app’s usability and made it feel much smoother.",
       image: "/john.jpg",
     },

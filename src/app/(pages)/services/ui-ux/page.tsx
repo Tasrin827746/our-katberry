@@ -29,19 +29,16 @@ const uiUxTechnologies = [
 const uiUxTestimonials = [
     {
       name: "Sophia Wright",
-      position: "Product Manager, FinTech",
       review: "The UI/UX design exceeded our expectations! Our app is now more intuitive and engaging.",
       image: "/sarah.jpg",
     },
     {
       name: "Daniel Foster",
-      position: "Founder, StartupX",
       review: "From wireframes to final designs, everything was delivered flawlessly. Great attention to detail!",
       image: "/john.jpg",
     },
     {
       name: "Emily Carter",
-      position: "Marketing Head, E-commerce",
       review: "User research and testing helped us improve our conversion rates significantly!",
       image: "/sarah.jpg",
     },

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 
@@ -39,13 +38,15 @@ const Banner = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
         >
-          <div className="relative w-[450px] h-[300px] rounded-lg overflow-hidden">
-            <Image
-              src="/banner.png"
-              alt="Team Collaboration"
-              layout="fill"
-              objectFit="cover"
-            />
+          <div className="relative w-[600px] h-[350px] rounded-lg overflow-hidden">
+          <video
+  src="/Promotion Video.mp4"
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full h-full object-cover"
+/>
           </div>
         </motion.div>
       </div>

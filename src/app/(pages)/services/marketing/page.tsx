@@ -31,19 +31,16 @@ const marketingTechnologies = [
 const marketingTestimonials = [
   {
     name: "Emily Richards",
-    position: "Creative Director, DesignCo",
     review: "The graphics and branding designs were stunning! Our brand identity has never been stronger.",
     image: "/john.jpg",
   },
   {
     name: "David Williams",
-    position: "Founder, ArtWorks Studio",
     review: "The team truly understood our vision. The branding materials are unique and perfectly represent our values.",
     image: "/sarah.jpg",
   },
   {
     name: "Olivia Brown",
-    position: "Marketing Manager, PixelPerfect",
     review: "Fantastic work on our logo and graphics! They brought our marketing campaign to life in a way we never expected.",
     image: "/michel.jpg",
   },

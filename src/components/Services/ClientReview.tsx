@@ -3,7 +3,6 @@ import { FC } from "react";
 
 interface Testimonial {
   name: string;
-  position: string;
   review: string;
   image: string;
 }
@@ -49,7 +48,6 @@ const ClientReviews: FC<ClientReviewsProps> = ({
               </div>
               <div className="pt-8">
                 <h3 className="text-lg font-semibold">{testimonial.name}</h3>
-                <p className="text-sm text-gray-800">{testimonial.position}</p>
                 <p className="mt-4 text-gray-900 italic">&ldquo;{testimonial.review}&rdquo;</p>
               </div>
             </div>

@@ -4,8 +4,8 @@ import React from 'react';
 
 const OurTeam: React.FC = () => {
   const teamMembers = [
-    { name: 'Md Omar Faruk', designation: 'Founder', image: '/ceo.jfif', role: 'Graphics Designer' },
-    { name: 'Morsala Tasrin', designation: 'Founder', image: '/ceo.jfif', role: 'Web Developer' },
+    { name: 'Md Omar Faruk', designation: 'Founder', image: '/Profile-2.jpg', role: 'Graphics Designer' },
+    { name: 'Morsala Tasrin', designation: 'Founder', image: '/black.jpg', role: 'Web Developer' },
   ];
 
   return (

@@ -27,7 +27,7 @@ const Project: React.FC<ProjectSectionProps> = ({
 }) => {
   return (
     <section className="bg-gradient-to-r from-violet-300 to-sky-200 text-black py-16 px-4 text-center">
-      <h2 className="text-3xl font-bold mb-8">{sectionTitle1} <span className={`text-blue-700 ${textColor}`}>{sectionTitle2}</span> <span>{sectionTitle3}</span></h2>
+      <h2 className="text-3xl font-bold mb-8">{sectionTitle1} <span className={`${textColor}`}>{sectionTitle2}</span> <span>{sectionTitle3}</span></h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {projects.map((project, index) => (

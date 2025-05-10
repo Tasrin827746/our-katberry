@@ -29,19 +29,16 @@ const logoCardDesignTechnologies = [
 const logoCardDesignTestimonials = [
   {
     name: "Alex Morgan",
-    position: "Founder, BrandBoost",
     review: "The logo design was exactly what we needed—modern, sleek, and instantly recognizable.",
     image: "/john.jpg",
   },
   {
     name: "Lisa Rodriguez",
-    position: "CEO, LuxeCards",
     review: "Our business cards now stand out in a crowded market! Highly professional design service.",
     image: "/sarah.jpg",
   },
   {
     name: "James Carter",
-    position: "Marketing Manager, Elevate",
     review: "Creative, timely, and visually stunning! The brand identity package transformed our business.",
     image: "/michel.jpg",
   },

@@ -54,7 +54,7 @@ const Projects1: React.FC<ProjectModalGalleryProps> = ({
                   onClick={() => setActiveImage(item.image)}
                   className={`${bgColor} text-white px-6 py-2 rounded hover:bg-blue-700 inline-block`}
                 >
-                  Click Logo
+                  Show Logo
                 </button>
               </div>
             </div>

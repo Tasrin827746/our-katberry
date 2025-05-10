@@ -9,13 +9,13 @@ const webProjects: Project[] = [
   },
   {
     title: 'Book Shop',
-    description: 'Give a short description of your project here..',
+    description: 'An online book shop',
     image: '/bookshop.jpg',
     demoLink: 'https://your-demo-link.com/book-shop',
   },
   {
     title: 'Kitchen',
-    description: 'Food Web',
+    description: 'An exclusive restaurant',
     image: '/kitchen.jpg',
     demoLink: 'https://your-demo-link.com/kitchen',
   },
