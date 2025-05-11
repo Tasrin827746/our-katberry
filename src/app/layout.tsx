@@ -1,18 +1,28 @@
 import Footer from "@/components/CommonLayout/Footer";
 import Navbar from "@/components/CommonLayout/Navbar";
-import SocialIcons from "@/components/CommonLayout/SocialIcons"; 
+import ClientSocialIcons from "@/components/CommonLayout/ClientLayout";
 import "@/styles/global.css";
+import { Metadata } from "next";
+import Head from "next/head";
 
-export default async function RootLayout({
+export const metadata: Metadata = {
+  title: "Katberry Studio",
+  description: "Your website description for SEO",
+};
+
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning className="pt-14">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <body className="pt-14">
         <Navbar />
-        <SocialIcons /> 
+        <ClientSocialIcons />
         {children}
         <Footer />
       </body>
