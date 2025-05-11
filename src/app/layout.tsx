@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "A software company",
   icons: {
     icon: "/Katberry.png",
-    shortcut: "/favicon.ico",
+    shortcut: "/Katberry.png",
   },
 };
 export default function RootLayout({
