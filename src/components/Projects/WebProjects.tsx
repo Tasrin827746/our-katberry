@@ -14,6 +14,12 @@ const webProjects: Project[] = [
     demoLink: 'https://your-demo-link.com/book-shop',
   },
   {
+    title: 'E-Commerce Website',
+    description: 'An online shopping site',
+    image: '/web.jpg',
+    demoLink: 'https://e-commerce-7aeh.vercel.app/',
+  },
+  {
     title: 'Kitchen',
     description: 'An exclusive restaurant',
     image: '/kitchen.jpg',
