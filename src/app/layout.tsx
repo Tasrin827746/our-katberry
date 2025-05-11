@@ -7,9 +7,12 @@ import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Katberry Studio",
-  description: "Your website description for SEO",
+  description: "A software company",
+  icons: {
+    icon: "/Katberry.png",
+    shortcut: "/favicon.ico",
+  },
 };
-
 export default function RootLayout({
   children,
 }: {
