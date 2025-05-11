@@ -8,6 +8,12 @@ const webProjects: Project[] = [
     demoLink: 'https://your-demo-link.com/art-craft',
   },
   {
+    title: 'Company website',
+    description: 'A software company portfolio',
+    image: '/projectbanner.avif',
+    demoLink: 'https://katberrystudio-ehoi.vercel.app/',
+  },
+  {
     title: 'Book Shop',
     description: 'An online book shop',
     image: '/bookshop.jpg',
