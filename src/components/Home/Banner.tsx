@@ -39,14 +39,17 @@ const Banner = () => {
           viewport={{ once: true }}
         >
           <div className="relative w-[600px] h-[350px] rounded-lg overflow-hidden">
-          <video
-  src="/Promotion Video.mp4"
+        <video
   autoPlay
   muted
   loop
   playsInline
+  preload="none"
   className="w-full h-full object-cover"
-/>
+>
+  <source src="/Promotion Video.webm" type="video/webm" />
+  <source src="/Promotion Video.mp4" type="video/mp4" />
+</video>
           </div>
         </motion.div>
       </div>

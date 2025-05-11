@@ -41,12 +41,13 @@ const Projects2: React.FC<ProjectGalleryProps> = ({
             key={card.id}
             className="bg-yellow-50 rounded-lg shadow-lg overflow-hidden flex flex-col"
           >
-            <div className="h-48 relative">
+            <div className="relative h-48 w-full">
               <Image
                 src={card.image}
-                alt={card.id}
-                layout="fill"
-                objectFit="cover"
+                alt={card.id || 'Project Image'}
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
+                className="object-cover"
               />
             </div>
 
@@ -54,7 +55,7 @@ const Projects2: React.FC<ProjectGalleryProps> = ({
               <div className="pt-4 mt-auto">
                 <button
                   onClick={() => setSelectedCard(card)}
-                  className={`${bgColor} text-white px-6 py-2 rounded hover:bg-blue-700 inline-block`}
+                  className={`${bgColor} text-white px-6 py-2 rounded hover:bg-blue-700`}
                 >
                   Show Card
                 </button>
@@ -82,26 +83,27 @@ const Projects2: React.FC<ProjectGalleryProps> = ({
             </button>
 
             {/* Main Image */}
-            <div className="relative w-full h-[80vh] mb-4">
+            <div className="relative w-full h-[60vh] mb-4">
               <Image
                 src={selectedCard.image}
                 alt="Main Project"
-                layout="fill"
-                objectFit="contain"
+                fill
+                sizes="100vw"
+                className="object-contain rounded"
               />
             </div>
 
             {/* Extra Images */}
-            {selectedCard.extraImages && selectedCard.extraImages.length > 0 && (
-  <div className="grid grid-cols-1 gap-6 mt-6">
+           {Array.isArray(selectedCard.extraImages) && selectedCard.extraImages.length > 0 && (
+  <div className="grid gap-6 mt-6">
     {selectedCard.extraImages.map((img, idx) => (
-      <div key={idx} className="relative w-full h-[60vh]">
+      <div key={idx} className="relative w-full h-[50vh]">
         <Image
           src={img}
           alt={`Extra ${idx + 1}`}
-          layout="fill"
-          objectFit="contain"
-          className="rounded-lg"
+          fill
+          sizes="100vw"
+          className="object-contain rounded-lg"
         />
       </div>
     ))}

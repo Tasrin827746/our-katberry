@@ -35,20 +35,24 @@ const ProjectSection: React.FC<ProjectSectionProps> = ({
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <div
-            key={index}
+            key={project.id}
             className="bg-yellow-50 rounded-lg shadow-lg overflow-hidden flex flex-col"
           >
-            {/* Display video directly in the card */}
+            {/* Video Preview */}
             <div className="w-full h-48 bg-black">
               <video
-                src={project.showVideo}
-                className="w-full h-full object-cover"
+                preload="none"
                 muted
                 loop
                 autoPlay
-              />
+                playsInline
+                className="w-full h-full object-cover"
+              >
+                <source src={project.showVideo.replace('.mp4', '.webm')} type="video/webm" />
+                <source src={project.showVideo} type="video/mp4" />
+              </video>
             </div>
 
             <div className="p-4 flex flex-col flex-1">
@@ -83,11 +87,14 @@ const ProjectSection: React.FC<ProjectSectionProps> = ({
             </button>
             <div className="w-full">
               <video
-                src={selectedVideo}
+                key={selectedVideo}
                 controls
                 autoPlay
                 className="w-full max-h-[80vh] rounded-lg"
-              />
+              >
+                <source src={selectedVideo.replace('.mp4', '.webm')} type="video/webm" />
+                <source src={selectedVideo} type="video/mp4" />
+              </video>
             </div>
           </div>
         </div>
