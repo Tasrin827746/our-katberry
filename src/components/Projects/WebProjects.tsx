@@ -16,7 +16,7 @@ const webProjects: Project[] = [
   {
     title: 'E-Commerce Website',
     description: 'An online shopping site',
-    image: '/web.jpg',
+    image: '/web.png',
     demoLink: 'https://e-commerce-7aeh.vercel.app/',
   },
   {
