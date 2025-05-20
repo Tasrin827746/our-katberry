@@ -26,7 +26,7 @@ const Reviews = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch("https://katberry.onrender.com/api/reviews");
+        const response = await fetch("https://our-katberry.onrender.com/api/reviews");
         const data = await response.json();
         setReviews(data);
       } catch (error) {
@@ -55,7 +55,7 @@ const Reviews = () => {
       formData.append("rating", rating.toString());
       files.forEach((file) => formData.append("files", file));
 
-      const response = await fetch("https://katberry.onrender.com/api/reviews", {
+      const response = await fetch("https://our-katberry.onrender.com/api/reviews", {
         method: "POST",
         body: formData,
       });
@@ -84,7 +84,7 @@ const Reviews = () => {
     if (!selectedId) return;
 
     try {
-      const res = await fetch(`https://katberry.onrender.com/api/reviews/${selectedId}`, {
+      const res = await fetch(`https://our-katberry.onrender.com/api/reviews/${selectedId}`, {
         method: "DELETE",
       });
 
@@ -193,7 +193,7 @@ const Reviews = () => {
 
                   <div className="mt-2 flex gap-2 flex-wrap">
                     {rev.files.map((file, index) => {
-                      const fileUrl = `https://katberry.onrender.com${file}`;
+                      const fileUrl = `https://our-katberry.onrender.com${file}`;
                       return (
                         <div key={index}>
                           {file.match(/\.(jpeg|jpg|png|gif)$/i) ? (
