@@ -8,7 +8,7 @@ const images = [
   { src: '/grid1.jpg', className: 'rounded-bl-full' },
   { src: '/grid2.jpg', className: 'rounded-br-full' },
   { src: '/grid3.jpeg', className: 'rounded-tl-full' },
-  { src: '/grid4.jfif', className: 'rounded-tr-full' },
+  { src: '/grid4.jpg', className: 'rounded-tr-full' },
 ];
 
 const containerVariants = {
